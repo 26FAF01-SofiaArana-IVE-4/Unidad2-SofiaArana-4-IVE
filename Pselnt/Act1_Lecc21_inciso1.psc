@@ -1,42 +1,42 @@
-Algoritmo ac1_ins1
-    Definir numD Como Entero
-    Definir v Como Logico
+Algoritmo act1_inciso1
+    Definir numDia Como Entero
+    Definir va Como Logico
 	
-    v <- Falso
+    va <- Falso
 	
-    Escribir "Ingrese un número del 1 al 7:"
-    Leer numD
+    Escribir "Ingrese un nÃºmero del 1 al 7:"
+    Leer numDia
 	
-    Si numD = 1 Entonces
+    Si numDia = 1 Entonces
         Escribir "Hoy es Lunes"
-        v <- Verdadero
+        va <- Verdadero
     FinSi
-    Si numD = 2 Entonces
+    Si numDia = 2 Entonces
         Escribir "Hoy es Martes"
-        v <- Verdadero
+        va <- Verdadero
     FinSi
-    Si numD = 3 Entonces
-        Escribir "Hoy es Miércoles"
-        v <- Verdadero
+    Si numDia = 3 Entonces
+        Escribir "Hoy es MiÃ©rcoles"
+        va <- Verdadero
     FinSi
-    Si numD = 4 Entonces
+    Si numDia = 4 Entonces
         Escribir "Hoy es Jueves"
-        v <- Verdadero
+        va <- Verdadero
     FinSi
-    Si numD = 5 Entonces
+    Si numDia = 5 Entonces
         Escribir "Hoy es Viernes"
-        v <- Verdadero
+        va <- Verdadero
     FinSi
-    Si numD = 6 Entonces
-        Escribir "Hoy es Sábado"
-        v <- Verdadero
+    Si numDia = 6 Entonces
+        Escribir "Hoy es SÃ¡bado"
+        va <- Verdadero
     FinSi
-    Si numD = 7 Entonces
+    Si numDia = 7 Entonces
         Escribir "Hoy es Domingo"
-        v <- Verdadero
+        va <- Verdadero
     FinSi
 	
-    Si v = Falso Entonces
-        Escribir "Número inválido"
+    Si va = Falso Entonces
+        Escribir "NÃºmero invÃ¡lido"
     FinSi
 FinAlgoritmo
